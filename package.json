@@ -1,0 +1,9 @@
+{
+ "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node node_modules/aws-iot-device-sdk/examples/device-example.js --host-name=ab2mqxvb1388m-ats.iot.us-east-1.amazonaws.com --private-key=demo_thing1.private.key --client-certificate=demo_thing1.cert.pem --ca-certificate=root-CA.crt --client-id=sdk-nodejs-425ce702-5424-47c7-b2f5-8710e6498461"
+  },
+  "dependencies": {
+    "aws-iot-device-sdk": "^2.2.11"
+  }
+}
